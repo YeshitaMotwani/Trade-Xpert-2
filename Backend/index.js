@@ -15,7 +15,12 @@ const uri = process.env.MONGO_URL;
 
 const app = express();
 
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: "https://trade-xpert-dashboard.onrender.com", // Allow only your frontend
+  methods: "GET,POST,PUT,DELETE",
+  credentials: true
+}));
 app.use(bodyParser.json());
 
 // app.get("/addHoldings", async (req, res) => {
