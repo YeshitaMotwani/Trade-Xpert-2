@@ -17,7 +17,7 @@ const SellActionWindow = ({ uid }) => {
   useEffect(() => {
     const fetchStockQuantity = async () => {
       try {
-        const response = await axios.get(`http://localhost:3002/getHoldings/${uid}`);
+        const response = await axios.get(`https://trade-xpert-backend.onrender.com/getHoldings/${uid}`);
         setAvailableQuantity(response.data.quantity || 0);
       } catch (error) {
         console.error("Error fetching stock holdings:", error);
