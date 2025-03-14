@@ -13,7 +13,7 @@
 - Built a **robust and scalable backend** using **Node.js and Express.js**.
 - Ensured seamless client-server communication through **RESTful APIs**.
 
-➡️ **Real-time Stock Data Integration:**
+➡️ **Dynamic Display of Stock Data:**
 - Displayed stock trends, prices, and user holdings using **dynamic data visualization**.
 
 ➡️ **User-Centric Design & UX:**
